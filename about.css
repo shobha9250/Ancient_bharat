@@ -1,0 +1,37 @@
+#header
+{
+	background-image: url('contact_about_header.jpg');
+}
+#content
+{
+	font-family: calibri;
+	font-size:3vh;
+	text-align:left;
+}
+#mission
+{
+	width:80vw;
+	margin-left:10vw;
+	margin-top:10vh; 
+	background-image: url('our_mission_back.jpg');
+	background-size: 80vw 90vh;
+	height:60vh;
+	color:white;
+	text-align: center;
+	font-size:4vh;
+}
+#vision
+{
+	height:110vh;
+	width:100vw;
+}
+#vision1,#vision2,#vision3
+{
+	box-sizing: border-box;
+	padding-left:5vw;
+	margin-left:5vw;
+	margin-top: 8vh;
+	width:26vw;
+	height:80vh;
+	float:left;
+}

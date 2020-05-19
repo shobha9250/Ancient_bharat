@@ -1,0 +1,206 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+#header
+{
+	height:33vh;
+	background-image: url('profile_header.jpg');
+	background-repeat: no-repeat;
+	background-size: 100vw 80vh;
+}
+#symbol
+{
+	position: relative;
+	margin-left: 1.48vw;
+	margin-top: 3.33vh;
+	height:13.33vh;
+	width: 5.92vw;
+	float: left;
+}
+#bharat
+{
+	position: relative;
+	line-height: 80%;
+	margin-left: 1.48vw;
+	margin-top: 6.66vh;
+	font-size: 5vh;
+	float:left;
+	height:13.33vh;
+	width:7.40vw;
+}
+#social
+{
+	position: relative;
+	padding-top: 6.66vh;
+	margin-right: 2vw;
+}
+.sn
+{
+	position: relative;
+	box-sizing: border-box;
+	padding:0.5vh;
+	border-radius: 20%;
+	height:6.33vh;
+	width: 3vw;
+	float:right;
+	cursor:pointer;
+}
+#menu
+{
+	height:5.33vh;
+	background-color: #5c5c5c;
+	font-size: 2.5vh;
+}
+#home,#profiles,#events,#about,#login
+{
+	height: 100%;
+	box-sizing: border-box;
+	padding:1vh;
+	width:11.100vw;
+	text-align: center;
+	float:left;
+	color: white;
+	cursor:pointer;
+}
+#footimage
+{
+	height:66.666vh;
+	width:100vw;
+	background-image: url('foot_image.jpg');
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+}
+#foot_quote
+{
+	font-family: calibri;
+	text-align: center;
+	font-size: 5.8vh;
+	text-decoration: bold;
+	padding-top:16.66vh;
+	position:relative;
+	color:white; 
+}
+#footcontent
+{
+	height:75.33vh;
+	width: 100vw;
+	background-color: #614527;
+}
+#sharethought
+{
+	height: 5vh;
+	border: none;
+	color:white;
+	width:11.4vw; 
+	background-color: rgba(0,0,0,0.7);
+	cursor:pointer;
+}
+#sharethought:hover
+{
+	background-color: red;
+}
+#sharethought:active
+{
+	background-color: rgba(0,0,0,0.7);
+	border-size:0px;
+}
+#foot_symbol
+{
+	position: relative;
+	margin-left: 7.4vw;
+	margin-top: 3.33vh;
+	height:13.33vh;
+	width: 5.92vw;
+	float: left;
+}
+#foot_bharat
+{
+	color:white;
+	position: relative;
+	line-height: 80%;
+	margin-left: 2.22vw;
+	margin-top: 6.66vh;
+	font-size: 5vh;
+	float:left;
+	height:13.33vh;
+	width:7.4vw;
+}
+#foot_mission
+{
+	position:relative;
+	width:29.6vw;
+	color:white;
+	float:left;
+	margin-left:11.8vw;
+	margin-top:6.66vh;
+}
+#foot_social
+{
+	position: relative;
+	padding-top: 3.33vh;
+	float: left;
+	margin-left:6.66vw; 
+}
+.sn:hover
+{
+	background-color: rgba(255,255,255,0.4);
+}
+#foot_menu
+{
+
+	height: 16.66vh;
+	width:81.48vw;
+	position: relative;
+	margin-top: 16.66vh;
+	margin-left:7.4vw;
+	text-align: center;
+	font-size: 2.5vh;
+}
+a
+{
+	color:white;
+	font-size: 2.6vh;
+	text-decoration: none; 
+}
+a:hover
+{
+	color:rgba(0,0,0,0.7);  
+}
+#profile_dropdown
+{
+	width:11.1vw;
+	display:none;
+	position:absolute;
+	background-color: #1c1c1c;
+	margin-left:11.1vw;
+	z-index: 7;
+}
+#event_dropdown
+{
+	width:11.1vw;
+	display:none;
+	position:absolute;
+	background-color:#1c1c1c;
+	margin-left:22.18vw;
+	z-index: 7;
+	font-family: calibri;
+	font-size: 2.5vh;
+}
+.profile_drop
+{
+	padding-top:1vh;
+	padding-bottom: 1vh;
+	text-align: center;
+	box-sizing: border-box;
+	color:white;
+	font-family: calibri;
+	font-size: 2.5vh;
+	width:11.1vw;
+}
+.profile_drop:hover
+{
+	background-color: #5c5c5c;
+}
+

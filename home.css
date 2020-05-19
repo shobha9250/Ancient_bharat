@@ -1,0 +1,441 @@
+*
+{
+	margin:0px;
+	padding:0px; 
+}
+#header
+{
+	width: 99vw;
+	height: 100vh;
+	background-image: url('home_header.jpg');
+	background-size: 100vw 100vh;
+}
+#header_content
+{
+	height: 100vh;
+	position: relative;
+	width:29.62vw;
+	margin-left: 7.4vw;
+	background-color:rgba(97,69,39,0.9);
+	float: left;
+}
+#header_events,#header_profiles,#header_webinar,#header_contents
+{
+	height:8.3vh;
+	width:14.8vw;
+	color:white;
+	margin-left: 7.4vw;
+	font-size: 2.5vh;
+	font-family: calibri;
+	text-align: center;
+	cursor: pointer;
+}
+#header_events:hover,#header_profiles:hover,#header_webinar:hover,#header_contents:hover
+{
+	background-color: rgba(255,255,255,0.4);
+}
+#header_links
+{
+	margin-top:5vh;
+	margin-left:8.8vw;
+	font-size: 2.5vh;
+	font-family: calibri
+}
+a
+{
+	color:white;
+	font-size: 2.66vh;
+	text-decoration: none;
+	font-family: calibri;
+	} 
+a:hover
+{
+	color:rgba(0,0,0,0.7);  
+}
+.sn
+{
+	position: relative;
+	box-sizing: border-box;
+	padding:0.5vh;
+	border-radius: 20%;
+	height:6.33vh;
+	width: 3vw;
+	float:right;
+	cursor:pointer;
+}.sn:hover
+{
+	background-color: rgba(255,255,255,0.4);
+}
+#welcome
+{
+	float: left;
+	height: 25vh;
+	width:50vw;
+	margin-top:38.33vh;
+	font-family: calibri;
+	margin-left: 5.92vw;
+	font-size: 9vh;
+	color:white;
+}
+#header_symbol
+{
+	position: relative;
+	margin-left: 11.85vw;
+	margin-top: 3.33vh;
+	height:13.333vh;
+	width: 5.9vw;
+}
+#header_bharat
+{
+	position: relative;
+	line-height: 80%;
+	margin-left: 9.62vw;
+	margin-top: 1.666vh;
+	font-size: 5vh;
+	height:13.33vh;
+	width:7.4vw;
+	color:white;
+	margin-bottom: 5vh;
+}
+#header_aboutus
+{
+	padding:9.3vh; 
+	height:47vh;
+	width:25.33vw;
+	font-size: 2.833vh;
+	font-family: calibri;
+	position:absolute;
+	margin-left: 60.66vw;
+	margin-top: 83.33vh;
+	background-color:#f0a118 ;
+	text-align: left;
+	float: left;
+}
+#webinars
+{
+	height:180vh;
+	width: 94.5vw;
+	background-color:rgba(97,69,39,0.2);
+	font-family: calibri;
+	position: relative;
+	padding-top: 6.66vh;
+	padding-left: 4.44vw;
+}
+#latest
+{
+	margin-left: 6vw;
+	margin-top: 8vh;
+	height:40.33vh;
+	font-family: calibri;
+	font-size: 3vh;
+	width:49.25vw;
+	border-radius: 2%;
+}
+#latest_text
+{
+	width:28vw;
+	float:left;
+}
+#latest_image
+{
+	height:25vh;
+	width:15vw;
+	float:left;
+	margin-left:4vw;
+}
+#profile_slider
+{
+	margin-top:15vh;
+	height:75.66666vh;
+	padding-left: 5.925vw;
+	width:92vw;
+}
+#prof1,#prof2,#prof3,#prof4,#prof5,#prof6,#prof7
+{
+	height:45vh;
+	width:12.44444vw;
+	margin-top:7vh;
+	float: left;
+	border: 0.074vw white solid;
+	cursor:pointer;
+}
+#prof1:active,#prof2:active,#prof3:active,#prof4:active,#prof5:active,#prof6:active,#prof7:active
+{
+	opacity:0.8;
+}
+#live_web
+{
+	width: 84.7259vw;
+	height: 45vh;
+	margin-top: 6.66vh;
+	margin-left: 1.48vw;
+	background-image: url('live_web.jpg');
+	background-size: 86.9259vw  50vh;
+	background-color: white;
+	font-size: 2.5vh;
+	padding-top: 3.33vh;
+	padding-left: 2.22vw;
+}
+#web1,#web2,#web3,#web4
+{
+	height:48.99vh;
+	width: 42.8vw;
+	margin-left: 1.48vw;
+	margin-top:3.333vh;
+	position:relative;
+	font-size: 2.5vh;
+	float:left;
+	background-color: white;
+}
+#web1_text,#web2_text,#web3_text,#web4_text
+{
+	font-size: 2.5vh;
+	margin-left:2vw;
+	margin-top: 5vh;
+	float:left;
+	height:40vh;
+	width:25vw;
+	font-family: calibri;
+}
+.webbutton
+{
+	border: none;
+	background-color: #614527;
+	height: 5vh;
+	width: 11.4vw;
+	color:white;
+	font-size: 2.2vh;
+	cursor: pointer;
+}
+.webbutton:hover
+{
+	background-color: red;
+}
+.webbutton:active
+{
+	background-color: #614527;
+}
+#web1_image,#web2_image,#web3_image,#web4_image
+{
+	height:20vh;
+	width:12vw;
+	margin-left: 2vw;
+	float: left;
+	margin-top: 5vh;
+}
+#battles
+{
+	box-sizing: border-box;
+	height: 110vh;
+	width:100vw;
+	padding-top: 7vh;
+}
+#battle_text
+{
+	font-weight: bold;
+	font-size: 6.66vh;
+	position:relative;
+	margin-left:6.48vw;
+}
+/* Slideshow container */
+.slideshow-container {
+  width: 100vw;
+  height: 70vh;
+  box-sizing: border-box;
+  position: relative;
+  margin-top: 10vh;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display:none;
+  height:70vh;
+  width:60vw;
+  background-size: 60vw 70vh;
+  margin-left: 7vw;
+  position: relative;
+  float: left;
+  cursor: pointer;
+}
+.mySlides:hover
+{
+	opacity: 0.85;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: rgba(0,0,0,0.4);
+  padding: 2.666vh;
+  color: white;
+  font-weight: bold;
+  font-size: 3vh;
+  transition: 0.6s ease;
+  border-radius: 0 0.5vh 0.5vh 0;
+  margin-top:25vh;
+  float: left;
+}
+.next
+{
+	margin-left:7vw;
+}
+.prev
+{
+	margin-left: 7.48vw;
+}
+/* Position the "next button" to the right */
+.next {
+	right:0;
+  border-radius: 0.5vh 0 0 0.5vh;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+	box-sizing: border-box;
+  color: #f2f2f2;
+  background-color: rgba(0,0,0,0.7);
+  font-size: 4.5vh;
+  padding: 1.33vh 0.888vw;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+	box-sizing: border-box;
+  color: #f2f2f2;
+  font-size: 2vh;
+  padding: 1.33vh 0.888vw;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	box-sizing: border-box;
+  cursor: pointer;
+  height: 2.5vh;
+  width: 1.11vw;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+#footimage
+{
+	height:66.666vh;
+	width:100vw;
+	background-image: url('foot_image.jpg');
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+}
+#foot_quote
+{
+	font-family: calibri;
+	text-align: center;
+	font-size: 5.8vh;
+	text-decoration: bold;
+	padding-top:16.66vh;
+	position:relative;
+	color:white; 
+}
+#footcontent
+{
+	height:79.33vh;
+	width: 100vw;
+	background-color: #614527;
+}
+#sharethought
+{
+	height: 5vh;
+	border: none;
+	color:white;
+	width:11.4vw; 
+	background-color: rgba(0,0,0,0.7);
+	cursor:pointer;
+}
+#sharethought:hover
+{
+	background-color: red;
+}
+#sharethought:active
+{
+	background-color: rgba(0,0,0,0.7);	
+}
+#foot_symbol
+{
+	position: relative;
+	margin-left: 7.4vw;
+	margin-top: 3.33vh;
+	height:13.33vh;
+	width: 5.92vw;
+	float: left;
+}
+#foot_bharat
+{
+	color:white;
+	position: relative;
+	line-height: 80%;
+	margin-left: 2.22vw;
+	margin-top: 6.66vh;
+	font-size: 5vh;
+	float:left;
+	height:13.33vh;
+	width:7.4vw;
+}
+#foot_mission
+{
+	position:relative;
+	width:29.6vw;
+	color:white;
+	float:left;
+	margin-left:11.8vw;
+	margin-top:6.66vh;
+}
+#foot_social
+{
+	position: relative;
+	padding-top: 3.33vh;
+	float: left;
+	margin-left:6.66vw; 
+}
+#foot_menu
+{
+
+	height: 16.66vh;
+	width:81.48vw;
+	position: relative;
+	margin-top: 16.66vh;
+	margin-left:7.4vw;
+	text-align: center;
+	font-size: 2.5vh;
+}

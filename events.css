@@ -1,0 +1,158 @@
+*{
+	padding:0px;
+	margin:0px;
+  box-sizing: border-box;
+}
+#header
+{
+	height:38vh;
+	background-image: url('events.jpg');
+	background-repeat: no-repeat;
+	background-size: 100vw 50vh;
+}
+#symbol
+{
+	position: relative;
+	margin-left: 1.48vw;
+	margin-top: 3.33vh;
+	height:13.33vh;
+	width: 5.92vw;
+	float: left;
+}
+#bharat
+{
+	position: relative;
+	line-height: 80%;
+	margin-left: 1.48vw;
+	margin-top: 6.66vh;
+	font-size: 5vh;
+	float:left;
+	height:13.33vh;
+	width:7.40vw;
+}
+#social
+{
+	position: relative;
+	padding-top: 6.66vh;
+}
+#fb,#insta,#twitter,#utube,#linkedin
+{
+	position: relative;
+	height:8.33vh;
+	width: 3.7vw;
+	float:right;
+}
+#paper{
+	
+	background-image: linear-gradient(to right, white, #996633); 
+width:99vw;
+  background-color: no-repeat;
+	height:70vh;
+}
+
+#menu
+{
+	height:4.4vh;
+	background-color: rgba(0,0,0,0.7);
+	font-size: 2.5vh;
+	padding:1vh;
+}
+#home,#profiles,#events,#about,#login
+{
+	height: 3.33vh;
+	width:11.100vw;
+	text-align: center;
+	float:left;
+	color: white;
+}
+#footimage
+{
+	height:66.666vh;
+	width:100vw;
+	background-image: url('foot_image.jpg');
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+}
+#foot_quote
+{
+	font-family: calibri;
+	text-align: center;
+	font-size: 5.8vh;
+	text-decoration: bold;
+	padding-top:16.66vh;
+	position:relative;
+	color:white; 
+}
+#footcontent
+{
+	height:75.33vh;
+	width: 100vw;
+	background-color: #614527;
+}
+#sharethought
+{
+	height: 5vh;
+	border: none;
+	color:white;
+	width:7.4vw; 
+	background-color: rgba(0,0,0,0.7);
+}
+#foot_symbol
+{
+	position: relative;
+	margin-left: 7.4vw;
+	margin-top: 3.33vh;
+	height:13.33vh;
+	width: 5.92vw;
+	float: left;
+}
+#foot_bharat
+{
+	color:white;
+	position: relative;
+	line-height: 80%;
+	margin-left: 2.22vw;
+	margin-top: 6.66vh;
+	font-size: 5vh;
+	float:left;
+	height:13.33vh;
+	width:7.4vw;
+}
+#foot_mission
+{
+	position:relative;
+	width:29.6vw;
+	color:white;
+	float:left;
+	margin-left:11.8vw;
+	margin-top:6.66vh;
+}
+#foot_social
+{
+	position: relative;
+	padding-top: 3.33vh;
+	float: left;
+	margin-left:6.66vw; 
+}
+#foot_menu
+{
+
+	height: 16.66vh;
+	width:81.48vw;
+	position: relative;
+	margin-top: 16.66vh;
+	margin-left:7.4vw;
+	text-align: center;
+	font-size: 2.5vh;
+}
+a
+{
+	color:white;
+	font-size: 2.6vh;
+	text-decoration: none; 
+}
+a:hover
+{
+	color:rgba(0,0,0,0.7);  
+}
